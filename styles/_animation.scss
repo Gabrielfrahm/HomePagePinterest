@@ -1,0 +1,12 @@
+.animation-before {
+    // eixo Y para baixo ou cima
+    transform: translateY(40px);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.animation-after {
+    transform: translateY(-40px);
+    opacity: 0;
+    pointer-events: none;
+}
